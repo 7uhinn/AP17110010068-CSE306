@@ -8,7 +8,7 @@ Multi line Comments: /* dffsfsdfssf */
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
-    char keyword[30][30] = {"int", "while", "break", "for", "do", "if", "float", "char", "switch", "double", "short", "long", "unsigned", "sizeof", "else", "register", "extern", "static", "auto", "case", "break", "volatile", "enum", "typedef"};
+char keyword[30][30] = {"int", "while", "break", "for", "do", "if", "float", "char", "switch", "double", "short", "long", "unsigned", "sizeof", "else", "register", "extern", "static", "auto", "case", "break", "volatile", "enum", "typedef"};
 char id[20], num[10];
 char symb_tab[20][50];
 int check_keyword(char s[])
