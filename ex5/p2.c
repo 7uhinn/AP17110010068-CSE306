@@ -2,7 +2,7 @@
 L -> SL’
 L’-> ,SL’ | ͼ
 S ->(L) | a
-Valid inputs: 
+Valid inputs: (a,(a,a)) and (a,((a,a),(a,a)))
 invalid inputs: 
 */
 
