@@ -31,7 +31,7 @@ int main()
 
 int L()
 {
-    printf("%s\t\tT->SL' \n", ip);
+    printf("%s\t\tL->SL' \n", ip);
     if (S())
     {
         if (Ldash())
@@ -75,7 +75,7 @@ int S()
 {
     if (*ip == '(')
     {
-        printf("%s\t\tS->(E) \n", ip);
+        printf("%s\t\tS->(L) \n", ip);
         ip++;
         if (L())
         {
