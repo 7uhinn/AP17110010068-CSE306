@@ -77,7 +77,8 @@ void main()
     }
     else if (*ip == '$')
     {
-      printf("\nInvalid\n\n\n");
+      display();
+      printf("Invalid\n\n\n");
       break;
     }
     else
